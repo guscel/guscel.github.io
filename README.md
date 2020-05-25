@@ -1,1 +1,1 @@
-# O Currículo profissional do time `GUSCEL's Projects`
+# O Currículo profissional do time Gustavo e Marcel.
