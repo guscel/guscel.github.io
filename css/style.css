@@ -1,0 +1,21 @@
+.footer {
+background-color:#00838f;
+}
+
+.p-footer{
+  text-align: center;
+  color: white;
+}
+
+.img-github-footer{
+width: 4.5%;}
+
+.github-footer{
+margin:0 auto;
+display:table;
+padding-top: 10px;
+padding-bottom:10px ;
+}
+.copyright-footer{
+background-color: #006973 ;
+}
