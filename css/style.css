@@ -11,13 +11,13 @@ body {
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #333170;
-    top: 0;
-    width: 100%;
-    position: fixed; 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333170;
+  top: 0;
+  width: 100%;
+  position: fixed; 
 }
 
 .guscel{
@@ -37,21 +37,22 @@ ul {
 }
 
 li {
-    float: right;
+  float: right;
 }
 
 li a {
-    text-decoration: solid;
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    font-weight: 700;
-    font-size: 25px;
-    transition: all 0.3s;
-    cursor: pointer;
+  text-decoration: solid;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-weight: 700;
+  font-size: 25px;
+  transition: all 0.3s;
+  cursor: pointer;
     
 }
+
 li a:hover {
   text-decoration: none;
   color: white;
@@ -60,30 +61,29 @@ li a:hover {
   
 }
 
-
 img {
   height: 80%;
   width: 100%;
 }
 
 .footer{
-background-color:#503d7b;
+  background-color:#503d7b;
 }
 
 .img-github-footer{
-width: 50%;
-height: 50%;
+  width: 50%;
+  height: 50%;
 }
 
 .github-footer{
-margin:auto auto;
-display:table;
-padding-top: 10px;
-padding-bottom:10px ;
+  margin:auto auto;
+  display:table;
+  padding-top: 10px;
+  padding-bottom:10px ;
 }
 
 .copyright-footer{
-background-color: #333170 ;
+  background-color: #333170 ;
 }
 
 .p-footer{
@@ -91,6 +91,3 @@ background-color: #333170 ;
   text-align: center;
   margin: 0;
 }
-
-
-
