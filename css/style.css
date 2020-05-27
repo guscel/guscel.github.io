@@ -1,6 +1,6 @@
 @font-face{
   font-family: "Ubuntu";
-  src: url("../src/Ubuntu-Regular.ttf")
+  src: url("../assets/Ubuntu-Regular.ttf")
 }
 
 body {
@@ -89,6 +89,7 @@ background-color: #333170 ;
 .p-footer{
   color: white;
   text-align: center;
+  margin: 0;
 }
 
 
