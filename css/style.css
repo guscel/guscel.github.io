@@ -2,17 +2,6 @@
   font-family: "Ubuntu";
   src: url("../assets/Ubuntu-Regular.ttf")
 }
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
 
 .menu{
   height: 0px !important;
@@ -74,7 +63,6 @@ img {
   width: 100%;
   
 }
-
 
 .primeira-parte-form{
   display: flex;
@@ -174,12 +162,10 @@ img {
 .p-footer{
   color: white;
   text-align: center;
-<<<<<<< HEAD
   margin-bottom: 0px;
 }
+
 body{
   background-color: #EEE !important;
+  margin: 0 !important;
 }
-=======
-
->>>>>>> a1bf1a2f13d71045ce1630860c87f3e62abf0e49
