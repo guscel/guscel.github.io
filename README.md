@@ -1,4 +1,3 @@
-# O Currículo profissional do time Gustavo e Marcel.
-TESTE
-TESTE2
-TESTE3 - branch
+# O Portfólio profissional do time Gustavo e Marcel
+
+## [Portfólio](http://guscel.github.io)
