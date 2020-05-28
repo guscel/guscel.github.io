@@ -3,9 +3,6 @@
   src: url("../src/Ubuntu-Regular.ttf")
 }
 
-body {
-  margin: 0;
-}
 .menu{
   height: 0px !important;
 }
@@ -66,6 +63,71 @@ img {
   width: 100%;
 }
 
+
+.primeira-parte-form{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.titulo{
+  text-align: center;
+}
+.titulo-principal{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.segunda-parte-form{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.informacoes-contato-1{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 150px;
+  margin-top: 50px;
+}
+.informacoes-contato-2{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 120px;
+  margin-top: 30px;
+}
+.paragrafo{
+  text-align: justify;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-right: 30px;
+  font-family: Ubuntu;
+  font-size: 20px;
+}
+
+.imagem-perfil{
+  border-radius: 100%;
+  width: 30%;
+  height: 50%;
+}
+
+.botao-enviar{
+  width: 10%;
+  background-color: #333170;
+  border-radius: 5%;
+  font-size: 15px;
+  color: white;
+  align-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .footer{
 background-color:#503d7b;
 }
@@ -89,6 +151,7 @@ background-color: #333170 ;
 .p-footer{
   color: white;
   text-align: center;
+  margin-bottom: 0px;
 }
 
 
