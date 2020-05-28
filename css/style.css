@@ -4,7 +4,7 @@
 }
 
 .menu{
-  height: 0px !important;
+  height: 0px ;
 }
 
 ul {
@@ -14,13 +14,13 @@ ul {
   background-color: #333170;
   top: 0;
   width: 100%;
-  position: fixed; 
+  position: absolute; 
 }
 
 .guscel{
   float: left;
   text-decoration: solid;
-  color: white;
+  color: #EEE;
   text-align: center;
   padding: 14px 16px;
   transition: all 0.3s;
@@ -40,7 +40,7 @@ li {
 li a {
   text-decoration: solid;
   display: inline-block;
-  color: white;
+  color: #EEE;
   text-align: center;
   padding: 14px 16px;
   font-weight: 700;
@@ -61,8 +61,9 @@ li a:hover {
 img {
   height: 80%;
   width: 100%;
-  
 }
+
+
 
 .primeira-parte-form{
   display: flex;
@@ -74,7 +75,8 @@ img {
   text-align: center;
   font-family: Ubuntu;
   font-size: 50px;
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 .titulo-principal{
   text-align: center;
@@ -116,7 +118,7 @@ img {
 }
 
 .imagem-perfil{
-  margin-top: 20px;
+  margin-top: 0px;
   width: 30%;
   height: 50%;
   min-width: 300px;
@@ -169,3 +171,4 @@ body{
   background-color: #EEE !important;
   margin: 0 !important;
 }
+
