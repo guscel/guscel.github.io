@@ -2,11 +2,22 @@
   font-family: "Ubuntu";
   src: url("../assets/Ubuntu-Regular.ttf")
 }
+:root {
+  --animate-duration: 800ms;
+  --animation-delay: 1.5s;
+}
 
 .menu{
   height: 0px ;
 }
+.titulo.animate__animated.animate__slideInLeft{
+  --animate-duration: 3s;
+} 
 
+
+.menu.animate__animated.animate__fadeInRight{
+  --animate-duration: 2s;
+}
 ul {
   list-style-type: none;
   margin: 0;
