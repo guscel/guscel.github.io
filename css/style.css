@@ -6,12 +6,18 @@
   --animate-duration: 800ms;
   --animation-delay: 1.5s;
 }
-
+.container-fluid{
+  width: 100%;
+  background-color:#333170;
+  margin: 0px;
+}
 .menu{
   height: 0px ;
 }
 .titulo.animate__animated.animate__slideInLeft{
   --animate-duration: 3s;
+  color: white;
+  margin-top: 0;
 } 
 
 
@@ -94,6 +100,7 @@ img {
   font-size: 50px;
   margin-bottom: 20px;
   font-family: Ubuntu;
+  color: white;
 }
 .segunda-parte-form{
   display: flex;
