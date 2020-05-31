@@ -13,14 +13,14 @@
 
   <body>
       <hearder>
-        <img src="./assets/back.jpg" alt="estilo">
+        <div class="imagem-principal">
+          <img src="./assets/back.jpg" alt="estilo"><figcaption class="guscel">Guscel</figcaption>
+        </div>
         <nav>
-          <ul class="menu animate__animated animate__fadeInRight">
+          <ul style="list-style-type: none;" class="menu animate__animated animate__fadeInRight">
             <li><a href="#contate-nos">Contato</a></li>
             <li><a href="#projetos">Projetos</a></li>
             <li><a href="#quem-somos">Quem Somos</a></li>
-            <li><a href="#">Home</a></li>
-            <li class="guscel">GUSCEL</li>
           </ul>
         </nav>
       </hearder>
@@ -30,7 +30,7 @@
     <div class="container-fluid" id="quem-somos"><h2 class="titulo-principal animate__animated animate__slideInLeft">Quem Somos</h2></div>
     <div class="informacoes-contato-1" id="informacoes-contato-1">
       <div>
-        <img src="./assets/fotogustavo.png" class="imagem-perfil">
+        <div><img src="./assets/fotogustavo.png" class="imagem-perfil"></div>
         <h2>Gustavo Mendel</h2>
         <h3>U. Federal da Bahia</h3>
         <h3><a>gustavo.mendel.br@gmail.com</a></h3>
@@ -41,7 +41,7 @@
 
     <div class="informacoes-contato-2">
       <div>
-        <img src="./assets/fotomarcel.png" class="imagem-perfil">
+        <div><img src="./assets/fotomarcel.png" class="imagem-perfil"></div>
         <h2>Marcel de Araújo</h2>
         <h3>Universidade de Aveiro</h3>
         <h3><a>profmarcel17@gmail.com</a></h3>
@@ -101,7 +101,7 @@
         
           <div class="segunda-parte-form">
             <h2 class="titulo">Mensagem</h2>
-            <textarea  name="adicional" rows="4" cols="96" class="mensagem"></textarea>
+            <textarea  name="adicional" class="mensagem"></textarea>
             <button type="submit" value="ENVIAR" class="botao-enviar">ENVIAR</button>
           </div>
         </div>      
@@ -110,11 +110,8 @@
 
     <footer>
       <div class="footer">
-        <div>
-          <a href="https://github.com/guscel" class="github-footer">
-            <img src="./assets/github.png" alt="Github"  class="img-github-footer">
-          </a>
-        </div>
+       <img src="./assets/github.png" alt="Github"  class="img-github-footer">
+
       </div>
 
       <div class="copyright-footer">
