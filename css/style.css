@@ -9,16 +9,20 @@ html, body {
   padding: 0;
 }
 
-*{margin-right: 0 !Important;}
+body, html{
+  height: 100%;
+  width: 100%;
+}
+
+*{margin-right: 0 !Important;
+}
 
 :root {
   --animate-duration: 800ms;
   --animation-delay: 1.5s;
 }
 
-.logo{
-  float: left;
-}
+
 main{
   width: 100%;
 }
@@ -33,15 +37,24 @@ main{
   display: inline-flex;
   flex-direction: row-reverse;
   justify-content: space-around;
-
+  position: absolute;
+  padding: 0;
 }
 
-.imagem-principal{
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
+
+.guscel{
+  width: 10%;
+}
+
+.back{
+  height: 100%;
+  
+}
+
+.overlay{
   width: 100%;
-  height: auto;
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -97,10 +110,11 @@ img {
 .titulo{
   text-align: center;
   font-family: Ubuntu;
-  font-size: 4rem;
+  font-size: 40%;
   margin-top: 10px;
   margin-bottom: 5px;
 }
+
 
 .titulo-form{
   text-align: start;
