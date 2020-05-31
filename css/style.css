@@ -9,14 +9,16 @@ html, body {
   padding: 0;
 }
 
-*{margin: 0;}
+*{margin-right: 0 !Important;}
 
 :root {
   --animate-duration: 800ms;
   --animation-delay: 1.5s;
 }
 
-
+.logo{
+  float: left;
+}
 main{
   width: 100%;
 }
@@ -42,14 +44,6 @@ main{
   height: auto;
 }
 
-
-figcaption{
- position: absolute;
- top: 35%;
- font-size: 10rem;
- color: white;
-  
-}
 
 ul {
   top: 0;
@@ -139,7 +133,7 @@ img {
   margin-bottom: 10%;
   margin-top: 5%;
   margin-left: 5%;
-  margin-right: 5%;
+  margin-right: 5% !important;
 }
 .informacoes-contato-2{
   display: flex;
@@ -149,7 +143,7 @@ img {
   margin-bottom: 10%;
   margin-top: 10%;
   margin-left: 5%;
-  margin-right: 5%;
+  margin-right: 5% !important;
 }
 .paragrafo{
   text-align: justify;
