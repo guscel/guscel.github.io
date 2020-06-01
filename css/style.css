@@ -14,7 +14,8 @@ body, html{
   width: 100%;
 }
 
-*{margin-right: 0 !Important;
+*{
+  margin-right: 0 !Important;
 }
 
 :root {
@@ -33,6 +34,7 @@ main{
 
 .menu.animate__animated.animate__fadeInRight{
   --animate-duration: 2s;
+  margin-top: 5vh;
   width: 100%;
   display: inline-flex;
   flex-direction: row-reverse;
@@ -43,7 +45,22 @@ main{
 
 
 .guscel{
-  width: 10%;
+  position: absolute;
+  text-align: center;
+  left:44.5%;
+  top: 40%;
+  font-size: 10vh;
+  font-family: Helvetica;
+  color:#F2FDFF ;
+}
+.slogan{
+  position: absolute;
+  text-align: center;
+  left: 41.5%;
+  top: 50%;
+  font-size: 5vh;
+  font-family: Helvetica;
+  color:#F2FDFF;
 }
 
 .back{
@@ -106,6 +123,13 @@ img {
   flex-direction: row;
   justify-content: space-evenly;
 }
+
+.imagem{
+  height: 100%;
+  width: 100% !important;
+}
+
+
 
 .titulo{
   text-align: center;
