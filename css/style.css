@@ -43,6 +43,28 @@ main{
   padding: 0;
 }
 
+.anime {
+  opacity: 0;
+  transform: translate3d(-100px, 0, 0);
+  transition: 2s;
+}
+
+.anime-special-1 {
+  opacity: 0;
+  transform: translate3d(-100px, 0, 0);
+  transition: 2s;
+}
+
+.anime-special-2 {
+  opacity: 0;
+  transform: translate3d(-100px, 0, 0);
+  transition: 4s;
+}
+
+.anime-start {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
 
 .guscel{
   position: absolute;
