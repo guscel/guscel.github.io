@@ -146,10 +146,19 @@ li a:hover::after{
 }
 .titulo-principal{
   text-align: center;
-  font-size: 1.8rem;
-  font-family: Ubuntu;
-  color: #564787;;
+  font-size: 2rem;
+  font-family: Helvetica, sans-serif;
+  color: black;
+  margin-top: 5%;
+  margin-bottom: 0;
 }
+.hr3 {
+  border: 1;
+  height: 2px;
+  background-image: linear-gradient(to right, transparent, #CCC, transparent);  
+  margin-top: 0;
+}
+
 .segunda-parte-form{
   display: flex;
   flex-direction: column;
@@ -184,6 +193,34 @@ li a:hover::after{
   font-family: Ubuntu;
   font-size: 1.4rem;
   margin-bottom: 0;
+}
+.efeito{
+
+  box-sizing: border-box;
+  cursor:pointer;
+  border:none;
+  transition: all 400ms ease;
+
+}
+
+.efeito-3d{
+  transform-style: preserve-3d;
+}
+
+.efeito-3d:after{
+  top: -100%;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  background-color: #3a9999;
+  box-sizing: border-box;
+  content: 'Enviado!';
+  transform-origin: left bottom;
+  transform: rotateX(90deg);
+}
+.efeito-3d:hover{
+  transform-origin: center bottom;
+  transform:rotateX(-90deg) translateY(100%);
 }
 
 .imagem-perfil{
