@@ -97,6 +97,12 @@ main{
   justify-content: center;
 }
 
+.titulo-principal {
+  color: #564787;
+  font-weight: 800;
+  text-shadow: darkslateblue 1px 2px 1px;
+}
+
 ul {
   top: 0;
   width: 100%;
