@@ -1,4 +1,4 @@
-document.querySelector('.NavMenu').addEventListener('click', function(event) {
+$('nav ul li a').click(function(event) {
     event.preventDefault();
-    console.log("sucess");
+    console.log('sucesso');
 });
