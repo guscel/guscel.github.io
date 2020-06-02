@@ -1,4 +1,4 @@
-@font-face{
+@font-face {
   font-family: "Helvetica";
   src: url("../assets/helvetica.otf")
 }
@@ -9,30 +9,21 @@ html, body {
   padding: 0;
 }
 
-body, html{
+body, html {
   height: 100%;
   width: 100%;
 }
 
-*{
-  margin-right: 0 !Important;
-}
-
-:root {
-  --animate-duration: 800ms;
-  --animation-delay: 1.5s;
-}
-
-main{
+main {
   width: 100%;
 }
 
-.titulo.animate__animated.animate__slideInLeft{
+.titulo.animate__animated.animate__slideInLeft {
   --animate-duration: 3s;
   color: #F2FDFF;
 } 
 
-.menu.animate__animated.animate__fadeInRight{
+.menu.animate__animated.animate__fadeInRight {
   --animate-duration: 2s;
   margin-top: 5vh;
   width: 100%;
@@ -45,19 +36,19 @@ main{
 
 .anime {
   opacity: 0;
-  transform: translate3d(-100px, 0, 0);
-  transition: 2s;
+  transform: translate3d(-10%, 0, 0);
+  transition: 1s;
 }
 
 .anime-special-1 {
   opacity: 0;
-  transform: translate3d(-100px, 0, 0);
+  transform: translate3d(-10%, 0, 0);
   transition: 2s;
 }
 
 .anime-special-2 {
   opacity: 0;
-  transform: translate3d(-100px, 0, 0);
+  transform: translate3d(-10%, 0, 0);
   transition: 4s;
 }
 
@@ -66,7 +57,7 @@ main{
   transform: translate3d(0, 0, 0);
 }
 
-.guscel{
+.guscel {
   position: absolute;
   text-align: center;
   left:10%;
@@ -76,7 +67,7 @@ main{
   color:#F2FDFF ;
 }
 
-.slogan{
+.slogan {
   position: absolute;
   text-align: center;
   left: 13%;
@@ -86,21 +77,15 @@ main{
   color:#F2FDFF;
 }
 
-.back{
+.back {
   height: 100%;
   
 }
 
-.overlay{
+.overlay {
   width: 100%;
   display: flex;
   justify-content: center;
-}
-
-.titulo-principal {
-  color: #564787;
-  font-weight: 800;
-  text-shadow: darkslateblue 1px 2px 1px;
 }
 
 ul {
@@ -128,7 +113,7 @@ li a:hover {
   transform: scale(1.3);
 }
 
-li a:hover::after{
+li a:hover::after {
   content: '';
   display: block;
   width: 60%;
@@ -137,18 +122,18 @@ li a:hover::after{
   margin: 0 auto;
 }
 
-.primeira-parte-form{
+.primeira-parte-form {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 
-.imagem{
+.imagem {
   height: 100%;
   width: 100% !important;
 }
 
-.titulo{
+.titulo {
   text-align: center;
   font-family: Ubuntu;
   font-size: 40%;
@@ -156,7 +141,7 @@ li a:hover::after{
   margin-bottom: 5px;
 }
 
-.titulo-form{
+.titulo-form {
   text-align: start;
   font-family: Helvetica;
   font-size: 1rem;
@@ -165,13 +150,15 @@ li a:hover::after{
   color: #564787;
 }
 
-.titulo-principal{
+.titulo-principal {
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: Helvetica, sans-serif;
-  color: black;
   margin-top: 5%;
   margin-bottom: 0;
+  color: #564787;
+  font-weight: 800;
+  text-shadow: black 2px 2px 2px;
 }
 
 .hr3 {
@@ -181,7 +168,7 @@ li a:hover::after{
   margin-top: 0;
 }
 
-.segunda-parte-form{
+.segunda-parte-form {
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -189,7 +176,7 @@ li a:hover::after{
   align-items: center;
 }
 
-.informacoes-contato-1{
+.informacoes-contato-1 {
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -200,7 +187,7 @@ li a:hover::after{
   margin-right: 5% !important;
 }
 
-.informacoes-contato-2{
+.informacoes-contato-2 {
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -211,7 +198,7 @@ li a:hover::after{
   margin-right: 5% !important;
 }
 
-.paragrafo{
+.paragrafo {
   text-align: justify;
   margin-top: 2%;
   font-family: Ubuntu;
@@ -219,18 +206,18 @@ li a:hover::after{
   margin-bottom: 0;
 }
 
-.efeito{
+.efeito {
   box-sizing: border-box;
   cursor:pointer;
   border:none;
   transition: all 400ms ease;
 }
 
-.efeito-3d{
+.efeito-3d {
   transform-style: preserve-3d;
 }
 
-.efeito-3d:after{
+.efeito-3d:after {
   top: -100%;
   left: 0;
   width: 100%;
@@ -242,18 +229,18 @@ li a:hover::after{
   transform: rotateX(90deg);
 }
 
-.efeito-3d:hover{
+.efeito-3d:hover {
   transform-origin: center bottom;
   transform:rotateX(-90deg) translateY(100%);
 }
 
-.imagem-perfil{
+.imagem-perfil {
   width: 25%;
   height: auto;
   min-width: 300px;
 }
 
-.projetos{
+.projetos {
   display: flex;
   flex-direction: row;
   margin-bottom: 12%;
@@ -273,7 +260,7 @@ li a:hover::after{
   color: #F2FDFF;
 }
 
-.footer{
+.footer {
   background-color:#503d7b;
   display: flex;
   justify-content: center;
@@ -281,26 +268,26 @@ li a:hover::after{
   
 }
 
-.img-github-footer{
+.img-github-footer {
   width: 8%;
   padding-top: 1%;
   padding-bottom: 1%;
 }
 
-.copyright-footer{
+.copyright-footer {
   background-color: #564787 ;
 }
 
-.p-footer{
+.p-footer {
   color: #F2FDFF;
   text-align: center;
   margin-bottom: 0px;
 }
 
-body{
+body {
   background-color: #F2FDFF !important;
 }
 
-.imagem-projetos{
+.imagem-projetos {
   border-radius: 10%;
 }
