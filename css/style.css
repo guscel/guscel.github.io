@@ -23,10 +23,10 @@ body, html{
   --animation-delay: 1.5s;
 }
 
-
 main{
   width: 100%;
 }
+
 .titulo.animate__animated.animate__slideInLeft{
   --animate-duration: 3s;
   color: #F2FDFF;
@@ -75,6 +75,7 @@ main{
   font-family: Helvetica;
   color:#F2FDFF ;
 }
+
 .slogan{
   position: absolute;
   text-align: center;
@@ -96,14 +97,11 @@ main{
   justify-content: center;
 }
 
-
 ul {
   top: 0;
   width: 100%;
   position: absolute; 
 }
-
-
 
 li a {
   text-decoration: solid;
@@ -133,9 +131,6 @@ li a:hover::after{
   margin: 0 auto;
 }
 
-
-
-
 .primeira-parte-form{
   display: flex;
   flex-direction: row;
@@ -147,8 +142,6 @@ li a:hover::after{
   width: 100% !important;
 }
 
-
-
 .titulo{
   text-align: center;
   font-family: Ubuntu;
@@ -156,7 +149,6 @@ li a:hover::after{
   margin-top: 10px;
   margin-bottom: 5px;
 }
-
 
 .titulo-form{
   text-align: start;
@@ -166,6 +158,7 @@ li a:hover::after{
   margin-bottom: 5px;
   color: #564787;
 }
+
 .titulo-principal{
   text-align: center;
   font-size: 2rem;
@@ -174,6 +167,7 @@ li a:hover::after{
   margin-top: 5%;
   margin-bottom: 0;
 }
+
 .hr3 {
   border: 1;
   height: 2px;
@@ -199,6 +193,7 @@ li a:hover::after{
   margin-left: 5%;
   margin-right: 5% !important;
 }
+
 .informacoes-contato-2{
   display: flex;
   flex-direction: row;
@@ -209,6 +204,7 @@ li a:hover::after{
   margin-left: 5%;
   margin-right: 5% !important;
 }
+
 .paragrafo{
   text-align: justify;
   margin-top: 2%;
@@ -216,13 +212,12 @@ li a:hover::after{
   font-size: 1.4rem;
   margin-bottom: 0;
 }
-.efeito{
 
+.efeito{
   box-sizing: border-box;
   cursor:pointer;
   border:none;
   transition: all 400ms ease;
-
 }
 
 .efeito-3d{
@@ -240,6 +235,7 @@ li a:hover::after{
   transform-origin: left bottom;
   transform: rotateX(90deg);
 }
+
 .efeito-3d:hover{
   transform-origin: center bottom;
   transform:rotateX(-90deg) translateY(100%);
@@ -257,7 +253,7 @@ li a:hover::after{
   margin-bottom: 12%;
 }
 
-.botao-enviar{
+.botao-enviar {
   width: 20%;
   display: flex;
   font-size: 1rem;
@@ -269,7 +265,7 @@ li a:hover::after{
   margin-top: 1%;
   margin-bottom: 1%;
   color: #F2FDFF;
-  }
+}
 
 .footer{
   background-color:#503d7b;
@@ -285,7 +281,6 @@ li a:hover::after{
   padding-bottom: 1%;
 }
 
-
 .copyright-footer{
   background-color: #564787 ;
 }
@@ -300,11 +295,6 @@ body{
   background-color: #F2FDFF !important;
 }
 
-
-
-
 .imagem-projetos{
   border-radius: 10%;
 }
-
-
