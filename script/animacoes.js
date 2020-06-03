@@ -6,9 +6,9 @@ $('nav a').click(function(event) {
     var id = $(this).attr('href'),
         targetOffset = $(id).offset().top;
 
-    $('body').animate({
+    $('html, body').animate({
         scrollTop: targetOffset - 20
-    }, 500);
+    })
 });
 
 // Debounce do Lodash
@@ -27,7 +27,6 @@ debounce = function(func, wait, immediate) {
 		if (callNow) func.apply(context, args);
 	};
 };
-
 
 // Funções para animações
 
@@ -59,6 +58,6 @@ debounce = function(func, wait, immediate) {
 
     $(document).scroll(debounce(function() {
         animeScroll();
-    }, 50));
+    }, 25));
 
 }());

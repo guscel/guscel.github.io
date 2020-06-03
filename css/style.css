@@ -36,20 +36,20 @@ main {
 
 .anime {
   opacity: 0;
-  transform: translate3d(-10%, 0, 0);
-  transition: 1s;
+  transform: translate3d(-40%, 0, 0);
+  transition: 1.5s;
 }
 
 .anime-special-1 {
   opacity: 0;
-  transform: translate3d(-10%, 0, 0);
+  transform: translate3d(-70%, 0, 0);
   transition: 2s;
 }
 
 .anime-special-2 {
   opacity: 0;
-  transform: translate3d(-10%, 0, 0);
-  transition: 4s;
+  transform: translate3d(-50%, 0, 0);
+  transition: 3s;
 }
 
 .anime-start {
